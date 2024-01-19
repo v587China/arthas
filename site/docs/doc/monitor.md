@@ -117,7 +117,7 @@ Affect(class count: 1 , method count: 1) cost in 19 ms, listenerId: 5
 ### 计算条件表达式过滤统计结果(方法执行完毕之前)
 
 ```bash
-monitor -b -c 5 com.test.testes.MathGame primeFactors "params[0] <= 2"
+monitor -b -c 5 demo.MathGame primeFactors "params[0] <= 2"
 Press Q or Ctrl+C to abort.
 Affect(class count: 1 , method count: 1) cost in 21 ms, listenerId: 4
  timestamp            class          method         total  success  fail  avg-rt(ms)  fail-rate
